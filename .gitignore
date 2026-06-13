@@ -1,0 +1,53 @@
+# Hackathon Documents (Ignore local roadmaps)
+Project.md
+task_final.md
+task.md
+
+# Environment files — NEVER commit these
+.env
+*.env
+.env.local
+.env.*.local
+serviceAccountKey.json
+*serviceAccountKey*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.Python
+venv/
+env/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+.cache/
+
+# Local databases & uploads
+db.json
+backend/db.json
+static/uploads/
+backend/static/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
